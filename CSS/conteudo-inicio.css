@@ -106,7 +106,7 @@ main{
     padding-right: 50px;
     padding-bottom: 30px;
 }
-#title{
+.title{
     width: 100%;
     text-align: center;
 }
@@ -118,11 +118,10 @@ main{
 }
 #image2{
     max-width: 20%;
-    max-height: auto;
     margin:30px;
     float: left;
 }
-#text{
+.text{
     font-size: 18px;
 }
 #button1-link{
@@ -243,7 +242,6 @@ tr:hover {
     }
     #image1{
         max-width: 75vw;
-        max-height: auto;
         margin:10px;
         float: left;
     }

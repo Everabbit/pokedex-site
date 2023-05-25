@@ -40,10 +40,10 @@ table{
     align-items: center;
     justify-content: space-between;
 }
-#menu-item{
+.menu-item{
     width: 100px;
 }
-#text-menu{
+.text-menu{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-decoration: none;
     font-weight: 800;
@@ -53,14 +53,14 @@ table{
     transition: all 0.1s;
     cursor: pointer;
 }
-#text-menu:hover{
+.text-menu:hover{
     font-size: 18px;
     color:rgb(0, 0, 0);
 }
 
 #logo{
     margin: 10px;
-    max-width: 151,3px;
+    max-width: 151.3px;
     max-height: 56px;
 }
 
@@ -80,7 +80,6 @@ table{
 .logo-footer{
     margin: 10px;
     max-width: 80%;
-    max-height: auto;
 }
 
 .logo-cont{
@@ -90,7 +89,7 @@ table{
 
 }
 
-#text-menu-r{
+.text-menu-r{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-decoration: none;
     font-weight: 800;
@@ -129,7 +128,6 @@ h1,h2,h3,h4{
 }
 #logo{
     max-width: 100vw;
-    max-height: auto;
 }
 
 .rodape{

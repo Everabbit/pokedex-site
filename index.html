@@ -13,10 +13,10 @@
 			<div class="cabecalho">
 				<div><a href="./index.html"><img src="./img/logo.png" id="logo" alt="Site Logo"></a></div>
 				<div id="menu">
-					<div id="menu-item"><a id="text-menu" href="./index.html">Inicio</a></div>
-					<div id="menu-item"><a id="text-menu" href="./HTML/pokedex.html">Pokédex</a></div>
-                    <div id="menu-item"><a id="text-menu" href="./HTML/trailers.html">Trailers</a></div>
-                    <div id="menu-item"><a id="text-menu" href="./HTML/showdown.html">Showdown</a></div>
+					<div class="menu-item"><a class="text-menu" href="./index.html">Inicio</a></div>
+					<div class="menu-item"><a class="text-menu" href="./HTML/pokedex.html">Pokédex</a></div>
+                    <div class="menu-item"><a class="text-menu" href="./HTML/trailers.html">Trailers</a></div>
+                    <div class="menu-item"><a class="text-menu" href="./HTML/showdown.html">Showdown</a></div>
 				</div>
 			</div>
 		</header>
@@ -25,10 +25,10 @@
 			<nav>
 				<div class="nav1">
 					<div class="nav-to-pokedex">
-						<img class="pikachu" src="./img/Pikachu.png" alt="Pikachu" width="15%" height="auto">
+						<img class="pikachu" src="./img/Pikachu.png" alt="Pikachu" style="width:15%; height:auto">
 						<p class="pikachu">Acesse a nossa Pokedex para saber mais sobre todos os primeiros 151 Pokémons</p>
 						<a class="pikachu" href="./HTML/pokedex.html">
-						<button class="button1-nav" type="button">Pokedex</button>
+						<div class="button1-nav">Pokedex</div>
 						</a>
 					</div>
 					<figure>
@@ -55,22 +55,22 @@
 			<!--Main-->
 			<main>
 				<div class="conteudo1">
-					<h1 id="title">Pokédex</h1>
-					<p id="text">
-						<img id="image1" src="./img/pokedex.png">
+					<h1 class="title">Pokédex</h1>
+					<p class="text">
+						<img id="image1" src="./img/pokedex.png" alt="Imagem de pokedex do anime clássico">
 						A <b>Pokédex</b> é um dispositivo eletrônico usado pelos treinadores <i>Pokémon</i> em jogos e animações da franquia Pokémon. É um catálogo digital de criaturas Pokémon, fornecendo informações sobre seus tipos, estatísticas, movimentos, evoluções e outras características.
 						<br>A Pokédex é uma ferramenta <b>crucial</b> para os treinadores, pois fornece informações sobre Pokémon desconhecidos que encontram em suas jornadas. Sem ela, seria difícil para um treinador entender as <i>forças e fraquezas</i> de cada Pokémon e, portanto, escolher o melhor time para suas batalhas.
 						<br>Ao longo dos anos, a Pokédex evoluiu de um dispositivo portátil simples para um dispositivo mais <i><b>complexo e sofisticado</b></i>. As primeiras versões da Pokédex eram dispositivos relativamente simples que podiam armazenar informações básicas sobre os Pokémon. Com o tempo, a Pokédex se tornou mais sofisticada, apresentando <b>gráficos</b> e ilustrações <i><b>detalhadas</b></i> de cada Pokémon.
 						<br>Atualmente, a Pokédex pode ser acessada de várias maneiras, incluindo através de aplicativos em dispositivos móveis e em consoles de jogos Pokémon. Alguns jogos Pokémon também apresentam diferentes tipos de Pokédexes, como a <b>Pokédex Regional</b>, que contém informações apenas sobre os Pokémon encontrados em uma região específica.
 						<br>Em resumo, a Pokédex é um dispositivo <b>fundamental</b> para os treinadores Pokémon, fornecendo informações <i><b>valiosas</b></i> sobre as criaturas que eles encontram em suas jornadas. Com a Pokédex, os treinadores podem conhecer melhor seus Pokémon, <i><b>maximizar suas habilidades</b></i> e criar o melhor time para enfrentar desafios e batalhas emocionantes.
 					</p>
-					<a id="button1-link" href="./pokedex.html">
-					<button class="button1" type="button">Acessar Pokedex</button>
+					<a id="button1-link" href="./HTML/pokedex.html">
+					<div class="button1">Acessar Pokedex</div>
 					</a>
                     <div class="tipagem">
-					<h2 id="title">Tipagens</h2>
-					<p id="text">
-						<img id="image2" src="./img/eevees.png">
+					<h2 class="title">Tipagens</h2>
+					<p class="text">
+						<img id="image2" src="./img/eevees.png" alt="Todas as Eeveelutions">
 						A seguir, você encontrará uma tabela completa dos diferentes tipos de Pokémon e suas interações. Entender as vantagens e desvantagens dos tipos é essencial para se tornar um treinador Pokémon habilidoso e estratégico. 
 						<br>Nossa tabela mostra como cada tipo de Pokémon é afetado por ataques de outros tipos. Os multiplicadores indicam a eficácia de um ataque específico contra determinado tipo de Pokémon. Por exemplo, se um tipo tem um multiplicador de <b>2x</b> contra outro tipo, significa que os ataques desse primeiro tipo são duas vezes mais eficazes contra o segundo tipo.
 						<br>Os multiplicadores são representados por cores para facilitar a leitura. Multiplicadores de <b>2x</b> estão destacados em <b>verde</b>, indicando vantagem, enquanto multiplicadores de <b>0.5x</b> são destacados em <b>vermelho</b>, indicando desvantagem. Multiplicadores de <b>0</b> representam imunidade e são destacados em <b>preto</b>.
@@ -374,7 +374,6 @@
                                 <td>1x</td>
                                 <td>1x</td>
                                 <td>1x</td>
-                                <td>1x</td>
                             </tr>
                             <tr>
                                 <th>Psychic</th>
@@ -529,18 +528,18 @@
 			</main>
 		</div>
         <!--Rodapé-->
-		<header>
+		<footer>
 			<div class="rodape">
-				<div class="logo-cont"><a href="./index.html"><img src="./img/logo.png" class="logo-footer"></a></div>
+				<div class="logo-cont"><a href="./index.html"><img src="./img/logo.png" class="logo-footer" alt="Site Logo"></a></div>
 				<div class="rodape-space">
                     <h4 class="rodape-title">
                         Veja Mais
                     </h4>
                     <div class="rodape-content">
-                        <a id="text-menu-r" href="./index.html">Inicio</a><br>
-					    <a id="text-menu-r" href="./HTML/pokedex.html">Pokédex</a><br>
-                        <a id="text-menu-r" href="./HTML/trailers.html">Trailers</a><br>
-                        <a id="text-menu-r" href="./HTML/showdown.html">Showdown</a>
+                        <a class="text-menu-r" href="./index.html">Inicio</a><br>
+					    <a class="text-menu-r" href="./HTML/pokedex.html">Pokédex</a><br>
+                        <a class="text-menu-r" href="./HTML/trailers.html">Trailers</a><br>
+                        <a class="text-menu-r" href="./HTML/showdown.html">Showdown</a>
                     </div>
                 </div>
                 <div class="rodape-space">
@@ -560,6 +559,6 @@
                     </div>
                 </div>
 			</div>
-		</header>
+		</footer>
 	</body>
 </html>

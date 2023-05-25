@@ -1,0 +1,50 @@
+.videos{
+    position:relative;
+    overflow: hidden;
+    width: 80%;
+    height: 80%;
+  
+}
+.videos iframe{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 55.25%;
+   
+   
+
+}
+#title{width: 320px; margin-left: 10%; margin-top: -50%;}
+#title2{width: 320px; margin-left: 10%;}
+#title3{width: 150px; margin-left: 15%;}
+#ad{width: 220px;}
+#wallpaper{
+    background-image: url(../img/wallpaper2.jpeg);
+    width: 100%;
+    border: 5px solid rgb(10, 10, 10);
+    padding: 150px;
+    margin: auto;
+    overflow: hidden;
+}
+#wallpaper2{
+    background-image: url(../img/back.jpg);
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+#pikachu1{
+position:   fixed;
+margin-top: -100%;
+margin-left: -20%;
+}
+#pikachu2{
+    position: relative;
+    margin-top: -10%;
+    margin-left: 65%;
+    }
+
+        @media (max-width: 760px){
+            .copy-rodape-space-copiryght{
+                display: none;
+            }
+          }

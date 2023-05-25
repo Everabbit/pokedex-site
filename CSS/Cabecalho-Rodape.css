@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+body{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+p, li, a{
+    font-family: 'Kanit', sans-serif;
+}
+button{
+    font-family: 'Kanit', sans-serif;
+}
+label{
+    font-family: 'Kanit', sans-serif;
+}
+legend{
+    font-family: 'Raleway', sans-serif;
+}
+table{
+    font-family: 'Nunito', sans-serif;
+}
+.cabecalho{
+    
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#menu{
+    width: max-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+#menu-item{
+    width: 100px;
+}
+#text-menu{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    font-weight: 800;
+    color:rgb(46, 46, 46);
+    position: relative;
+    font-size: 17px;
+    transition: all 0.1s;
+    cursor: pointer;
+}
+#text-menu:hover{
+    font-size: 18px;
+    color:rgb(0, 0, 0);
+}
+
+#logo{
+    margin: 10px;
+    max-width: 151,3px;
+    max-height: 56px;
+}
+
+
+
+/*rodapé*/
+
+.rodape{
+    background-color: rgb(63, 63, 63);
+    min-height: 200px;
+    display:grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+
+
+.logo-footer{
+    margin: 10px;
+    max-width: 80%;
+    max-height: auto;
+}
+
+.logo-cont{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+#text-menu-r{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    font-weight: 800;
+    color:rgb(241, 241, 241);
+    font-size: 17px;
+}
+
+.rodape-title, .rodape-content{
+    color:rgb(241, 241, 241);
+    list-style: none;
+    text-align: left;
+}
+
+.rodape-space{
+    margin-right: 100px;
+    
+}
+.copy{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1,h2,h3,h4{
+    font-family: 'Kanit', sans-serif;
+}
+
+
+@media only screen and (max-width: 600px) {
+#menu-item{
+    margin-left: 10px;
+    width: 20vw;
+}
+.cabecalho{
+    flex-direction: column;
+}
+#logo{
+    max-width: 100vw;
+    max-height: auto;
+}
+
+.rodape{
+    display:grid;
+    grid-template-columns: 100%;
+}
+}
